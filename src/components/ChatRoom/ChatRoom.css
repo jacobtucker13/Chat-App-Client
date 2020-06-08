@@ -1,0 +1,54 @@
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -250px;
+}
+
+.centered h1 {
+  position: absolute;
+  bottom: 140px;
+  left: 0px;
+  color: white;
+  width: 500px;
+}
+
+.centered .messages {
+  position: absolute;
+  margin-top: -150px;
+  background-color: white;
+  width: 500px;
+  border: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 3px;
+}
+
+#inputing {
+  color: #333;
+  width: 400px;
+  height: 38px;
+  position: absolute;
+  top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 0px;
+}
+
+#submiter {
+  position: absolute;
+  top: 100px;
+  width: 115px;
+  left: 425px;
+  height: 38px;
+  border-radius: 3px;
+  font-size: 14px;
+  border: 0px;
+}
