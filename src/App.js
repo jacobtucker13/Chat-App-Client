@@ -1,3 +1,8 @@
+//make changes by going into client, do:
+//git add .
+//git commit -am (message)
+//git push origin master
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
